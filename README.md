@@ -3,3 +3,5 @@
 This repo is from me following along with the tutorial from the awesome guys over at **Code School**.
 
 This is the **Shaping Up With Angular** course . . . Here goes!
+
+You can see this course as well over at: http://campus.codeschool.com/courses/shaping-up-with-angular-js/
