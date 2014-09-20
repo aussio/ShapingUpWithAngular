@@ -1,15 +1,19 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html ng-app="store">
 <head>
+	<!--Pull in our CSS-->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 </head>
-<body>
+<body class="container-fluid">
+	<!--  Directive     Controller Name     Alias  -->
+	<div ng-controller="StoreController as store">
+		<h1> {{store.product.name}} 
+		<span class="label label-success"> ${{store.product.price}} </span></h1>
+		<p> {{store.product.description}} </p>
+	</div>
+
+	<!--Pull in our javascript-->
 	<script type="text/javascript" src="js/angular.min.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>
-
-	<p>
-		I am {{4 + 6}}
-	</p>
-
 </body>
 </html>
